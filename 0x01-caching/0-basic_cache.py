@@ -14,12 +14,18 @@ class BasicCache(BaseCaching):
         super().__init__()
 
     def put(self, key, item):
+        """
+        method to set the key item in the dict
+        """
         if key and item is None:
             return
 
         self.cache_data[key] = item
 
     def get(self, key):
+        """
+        method to get the item per key
+        """
         if key is None:
             return
 
