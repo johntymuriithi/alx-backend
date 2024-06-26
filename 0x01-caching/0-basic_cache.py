@@ -27,4 +27,4 @@ class BasicCache(BaseCaching):
         """
         if key is None:
             return
-        return self.cache_data[keys]
+        return self.cache_data[key]
