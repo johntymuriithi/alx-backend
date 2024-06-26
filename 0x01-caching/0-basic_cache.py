@@ -32,5 +32,3 @@ class BasicCache(BaseCaching):
         for keys in self.cache_data.keys():
             if keys is key:
                 return self.cache_data[keys]
-
-
