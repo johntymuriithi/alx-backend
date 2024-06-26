@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-
-from base_caching import BaseCaching
 """
 This is class will inherit from base caching class
 """
+from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
