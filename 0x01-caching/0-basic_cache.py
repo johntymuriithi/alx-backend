@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 from base_caching import BaseCaching
 """
@@ -7,6 +7,9 @@ This is class will inherit from base caching class
 
 
 class BasicCache(BaseCaching):
+    """
+    Caching system
+    """
     def __init__(self):
         super().__init__()
 
