@@ -6,6 +6,7 @@ from base_caching import BaseCaching
 
 
 class LRUCache(BaseCaching):
+    """This class implements the LRU replacement policy"""
     def __init__(self):
         """Initialize the LRUCache"""
         super().__init__()
