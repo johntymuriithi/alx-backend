@@ -6,7 +6,7 @@ from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):
-    """This class implements the FIFO replacement policy"""
+    """This class implements the LIFO replacement policy"""
     def __init__(self):
         super().__init__()
         self.last = None
